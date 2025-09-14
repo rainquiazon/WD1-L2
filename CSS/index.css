@@ -1,0 +1,109 @@
+/* General Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #e8f0ff; /* light blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header / Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #4a90e2; /* soft vibrant blue */
+    color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ff6f61; /* coral accent on hover */
+}
+
+/* Header Buttons */
+header .nav-buttons button {
+    margin-left: 10px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6f61; /* coral button */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+header .nav-buttons button:hover {
+    background: #e65b50; 
+}
+
+/* Main Content */
+main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main h1 {
+    text-align: center;
+    color: #4a90e2; /* soft blue title */
+    margin-bottom: 30px;
+}
+
+/* Games Container */
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual Game Cards */
+.game {
+    background: #ffffff; /* white card */
+    border-radius: 12px;
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    
+}
+
+.game:hover {
+    
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Game Title and Description */
+.game h3 {
+    color: #4a90e2; /* blue title */
+    margin: 10px 0 5px;
+}
+
+.game p {
+    color: #666666; /* gray description */
+    font-size: 0.9em;
+}
+
+/* Game Images */
+.game img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 70%;
+}

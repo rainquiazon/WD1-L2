@@ -1,0 +1,50 @@
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #e8f0ff; /* soft blue background */
+  margin: 0;
+}
+
+/* Signup Container */
+.container {
+  background: #ffffff; /* white card */
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  
+}
+
+
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background: #ff6f61; /* coral button */
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #e65b50; /* darker coral hover */
+}
